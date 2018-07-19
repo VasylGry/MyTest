@@ -3,7 +3,7 @@
 */
 #include<io.h>
 
-void foo(void *data)
+int foo(void *data)
 {
-	return;
+	return 0;
 }
