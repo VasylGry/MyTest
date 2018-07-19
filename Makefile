@@ -1,4 +1,4 @@
-ARM_DIR=/home/vgryshchenko/delphi/nautilus/staging_dir/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf
+ARM_DIR=~/delphi/nautilus/staging_dir/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf
 CC=$(ARM_DIR)/bin/arm-linux-gnueabihf-gcc
 INCLUDE=$(ARM_DIR)/5.3.1/include/
 LIB=$(ARM_DIR)/lib
@@ -17,4 +17,4 @@ hello: hello.o
 .PHONY: clean
 
 clean:
-	rm -f *.o  $(TARGET)
+	rm -f *.o *.d  $(TARGET)
