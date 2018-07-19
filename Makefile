@@ -17,4 +17,5 @@ hello: hello.o
 .PHONY: clean
 
 clean:
+	echo Cleaning project build dir...
 	rm -f *.o *.d  $(TARGET)
