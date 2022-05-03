@@ -23,3 +23,8 @@ float *test_float(void *data)
         return (float *) data;
     return (float *) 0;
 }
+
+void test2(void *data)
+{
+    return data;
+}
