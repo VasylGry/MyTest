@@ -28,3 +28,8 @@ void *test2(void *data)
 {
     return (void *)data;
 }
+
+void test3(void *data)
+{
+    return data;
+}
