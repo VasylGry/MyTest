@@ -16,3 +16,10 @@ char *test_char(void *data)
         return (char*) data;
     return (char*) 0;
 }
+
+float *test_float(void *data)
+{
+    if((float *) data)
+        return (float *) data;
+    return (float *) 0;
+}
