@@ -24,7 +24,7 @@ float *test_float(void *data)
     return (float *) 0;
 }
 
-void *test3(void *data)
+void *test2(void *data)
 {
     return (void *)data;
 }
